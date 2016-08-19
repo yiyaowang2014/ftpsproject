@@ -1,0 +1,1 @@
+http\://www.mulesoft.org/schema/mule/ftps=org.mule.transport.ftps.config.FtpsNamespaceHandler

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:ftp="http://www.mulesoft.org/schema/mule/ftps" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ftps C:\Users\Wen\Downloads\Mule\AnypointStudio\plugins\org.mule.tooling.server.3.8.0.ee_6.0.0.201605131244\schemas\META-INF\mule-ftps.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+    <flow name="testFlow">
+        <file:inbound-endpoint path="C:\Users\Wen\IN" responseTimeout="10000" doc:name="File"/>
+        <ftp:outbound-endpoint host="localhost" port="21" responseTimeout="10000" doc:name="FTP"/>
+    </flow>
+</mule>

@@ -1,0 +1,9 @@
+http\://www.mulesoft.org/schema/mule/ftps/3.1/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.2/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.3/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.4/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.5/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.6/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.7/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/3.8/mule-ftps.xsd=META-INF/mule-ftps.xsd
+http\://www.mulesoft.org/schema/mule/ftps/current/mule-ftps.xsd=META-INF/mule-ftps.xsd
